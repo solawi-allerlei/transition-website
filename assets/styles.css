@@ -1,0 +1,55 @@
+/* Base mobile styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C5F0FC;
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    margin-block-start: 10px; /* Custom margin at the top of paragraphs */
+    margin-block-end: 10px;   /* Custom margin at the bottom of paragraphs */
+  }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px;
+    gap: 30px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.introduction {
+}
+
+.flyer {    
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
