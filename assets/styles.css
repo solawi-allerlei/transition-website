@@ -33,8 +33,12 @@ img {
     margin: 0px;
 }
 
-.title {
-    font-size: clamp(1rem, 3.5vw, 3rem);
+.title_main {
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    white-space: wrap;
+}
+.title_sub {
+    font-size: clamp(1.25rem, 2vw, 1,875rem);
     white-space: wrap;
 }
 
