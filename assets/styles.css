@@ -19,7 +19,7 @@ img {
 .container_header {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     margin: 30px 0 30px;
     gap: 30px;
 }
@@ -34,11 +34,12 @@ img {
 }
 
 .title_main {
-    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
     white-space: wrap;
+    margin:0;
 }
 .title_sub {
-    font-size: clamp(1.25rem, 2vw, 1,875rem);
+    font-size: clamp(0.75rem, 1.75vw, 1.5rem);
     white-space: wrap;
 }
 
