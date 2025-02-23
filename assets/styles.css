@@ -66,3 +66,7 @@ img {
     flex-direction: column;
     margin-bottom: 30px;
 }
+
+.impress_no-break {
+    white-space: nowrap;
+}
